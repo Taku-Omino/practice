@@ -1,0 +1,14 @@
+<% head_title = 'index'; title = 'Home'; path = './about.html'; page_name =
+'about page'; list = ['HTML', 'CSS', 'JavaScript'] %>
+<!DOCTYPE html>
+<html lang="ja ">
+  <head>
+    <% include src/templates/_head %>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="info"><% include src/templates/_info %></div>
+      <% include src/templates/_contents %>
+    </div>
+  </body>
+</html>
