@@ -13,6 +13,7 @@
     "start": "NODE_OPTIONS='--openssl-legacy-provider' webpack-dev-server --mode development --hot"
   },
   "devDependencies": {
+    "ejs": "^3.1.8",
     "ejs-compiled-loader": "^3.1.0"
   }
 }

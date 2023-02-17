@@ -3,12 +3,12 @@
 <!DOCTYPE html>
 <html lang="ja ">
   <head>
-    <% include src/templates/_head %>
+    <% include('/templates/_head.ejs') %>
   </head>
   <body>
     <div class="wrap">
-      <div class="info"><% include src/templates/_info %></div>
-      <% include src/templates/_contents %>
+      <div class="info"><% include('src/templates/_info.ejs') %></div>
+      <% include('src/templates/_contents.ejs') %>
     </div>
   </body>
 </html>
