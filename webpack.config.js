@@ -29,6 +29,11 @@ module.exports = {
           compilerOptions: {
             client: true,
           },
+          htmlWebpackPlugin: {
+            files: {
+              template: "src/templates/_head.ejs",
+            },
+          },
         },
       },
     ],
